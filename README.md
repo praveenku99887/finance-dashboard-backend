@@ -14,6 +14,7 @@ This project is a backend system for managing financial records with secure auth
 * MySQL
 * JPA (Hibernate)
 * Maven
+* Postman
 
 ---
 
@@ -77,7 +78,7 @@ com.finance.dashboard
 ### 1️⃣ Clone Repository
 
 ```
-git clone <your-repo-link>
+git clone <https://github.com/praveenku99887/finance-dashboard-backend>
 cd finance-dashboard-backend
 ```
 
@@ -96,7 +97,7 @@ CREATE DATABASE finance_db;
 ```
 spring.datasource.url=jdbc:mysql://localhost:3306/finance_db
 spring.datasource.username=root
-spring.datasource.password=your_password
+spring.datasource.password=Praveenku99887@
 
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
@@ -136,9 +137,9 @@ POST /auth/register
 
 ```
 {
-  "name": "Praveen",
+  "name": "Praveen Kumar",
   "email": "admin@gmail.com",
-  "password": "1234",
+  "password": "Praveen@2002",
   "role": "ADMIN",
   "active": true
 }
@@ -157,7 +158,7 @@ POST /auth/login
 ```
 {
   "email": "admin@gmail.com",
-  "password": "1234"
+  "password": "Praveen@2002"
 }
 ```
 
