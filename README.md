@@ -1,8 +1,8 @@
 # 💰 Finance Dashboard Backend
 
 ## 📌 Overview
-
 This project is a Finance Dashboard Backend built using Spring Boot and MySQL. It provides secure APIs for managing financial records with JWT-based authentication and role-based access control. Users can perform operations like creating, viewing, updating, and deleting financial data, along with accessing summary insights such as total income, expenses, and category-wise reports.
+
 ---
 
 ## 🚀 Tech Stack
