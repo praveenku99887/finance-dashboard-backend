@@ -2,14 +2,13 @@
 
 ## 📌 Overview
 
-This project is a backend system for managing financial records with secure authentication and role-based access control. It provides APIs for handling financial data and generating dashboard insights.
-
+This project is a Finance Dashboard Backend built using Spring Boot and MySQL. It provides secure APIs for managing financial records with JWT-based authentication and role-based access control. Users can perform operations like creating, viewing, updating, and deleting financial data, along with accessing summary insights such as total income, expenses, and category-wise reports.
 ---
 
 ## 🚀 Tech Stack
 
 * Java 17
-* Spring Boot 3.x
+* Spring Boot 3.5.13
 * Spring Security (JWT Authentication)
 * MySQL
 * JPA (Hibernate)
@@ -97,7 +96,7 @@ CREATE DATABASE finance_db;
 ```
 spring.datasource.url=jdbc:mysql://localhost:3306/finance_db
 spring.datasource.username=root
-spring.datasource.password=Praveenku99887@
+spring.datasource.password=Praveen@222
 
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
@@ -139,7 +138,7 @@ POST /auth/register
 {
   "name": "Praveen Kumar",
   "email": "admin@gmail.com",
-  "password": "Praveen@2002",
+  "password": "Praveen@222",
   "role": "ADMIN",
   "active": true
 }
@@ -158,7 +157,7 @@ POST /auth/login
 ```
 {
   "email": "admin@gmail.com",
-  "password": "Praveen@2002"
+  "password": "Praveen@222"
 }
 ```
 
